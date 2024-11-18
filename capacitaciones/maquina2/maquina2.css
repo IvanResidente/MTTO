@@ -1,0 +1,119 @@
+/* Estilos generales para el cuerpo del documento */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Establece la fuente del cuerpo del documento */
+  color: #333; /* Define el color del texto */
+  margin: 0; /* Elimina los márgenes predeterminados del cuerpo */
+  padding: 0; /* Elimina el padding predeterminado del cuerpo */
+}
+
+/* Estilos para la cabecera */
+header {
+  background-color: #900c3f; /* Establece el color de fondo de la cabecera */
+  color: #fff; /* Establece el color del texto en la cabecera */
+  padding: 20px; /* Añade un padding de 20px alrededor del contenido de la cabecera */
+  text-align: center; /* Centra el texto dentro de la cabecera */
+  border-radius: 0 0 20px 20px; /* Aplica un radio de borde redondeado solo en la parte inferior */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil alrededor de la cabecera */
+}
+
+/* Estilos para las secciones */
+section {
+  background-color: rgba(255, 255, 255, 0.9); /* Establece un fondo blanco con opacidad para las secciones */
+  margin: 30px auto; /* Añade un margen superior e inferior de 30px y centra la sección */
+  padding: 20px; /* Añade un padding de 20px alrededor del contenido */
+  border-radius: 10px; /* Aplica un radio de borde redondeado a todos los bordes de la sección */
+  width: 80%; /* Establece el ancho de la sección en un 80% del contenedor */
+  max-width: 900px; /* Establece un ancho máximo de 900px */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil alrededor de la sección */
+  border-left: 6px solid #ffd700; /* Añade una barra de borde izquierdo de 6px de color dorado */
+}
+
+/* Estilos para los subtítulos */
+h2 {
+  color: #581845; /* Establece el color del texto del subtítulo h2 */
+  border-bottom: 2px solid #ffd700; /* Añade una línea inferior dorada de 2px */
+  padding-bottom: 10px; /* Añade un padding de 10px en la parte inferior */
+  font-size: 24px; /* Establece el tamaño de fuente en 24px */
+  margin-bottom: 15px; /* Añade un margen inferior de 15px */
+}
+
+h3 {
+  color: #581845; /* Establece el color del texto del subtítulo h3 */
+  font-size: 20px; /* Establece el tamaño de fuente en 20px */
+  margin-top: 20px; /* Añade un margen superior de 20px */
+  border-bottom: 1px solid #ddd; /* Añade una línea inferior gris de 1px */
+  padding-bottom: 5px; /* Añade un padding de 5px en la parte inferior */
+}
+
+/* Estilos para la lista de control - color iconos */
+.checklist {
+  list-style: none; /* Elimina los estilos predeterminados de la lista */
+  padding: 0; /* Elimina el padding de la lista */
+}
+
+.checklist li {
+  margin-bottom: 10px; /* Añade un margen inferior de 10px a cada elemento de la lista */
+  font-size: 16px; /* Establece el tamaño de la fuente en 16px para los elementos de la lista */
+}
+
+.checklist li i {
+  margin-right: 8px; /* Añade un margen derecho de 8px a los iconos */
+  color: #900c73; /* Establece el color de los iconos a un tono morado */
+}
+
+/* Estilo para los enlaces */
+a {
+  display: inline-block; /* Hace que el enlace sea un bloque en línea */
+  background-color: #900c3f; /* Establece un color de fondo rojo para los enlaces */
+  color: #fff; /* Establece el color del texto del enlace en blanco */
+  padding: 10px 20px; /* Añade padding de 10px vertical y 20px horizontal al enlace */
+  text-decoration: none; /* Elimina la subrayado de los enlaces */
+  border-radius: 5px; /* Aplica un borde redondeado de 5px a los enlaces */
+  margin-top: 20px; /* Añade un margen superior de 20px */
+}
+
+/* Efecto hover para el botón de regreso */
+a:hover {
+  background-color: #581845; /* Cambia el color de fondo a un tono morado cuando se pasa el ratón */
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #900c3f; /* Establece un color de fondo rojo para el pie de página */
+  color: white; /* Establece el color del texto en blanco */
+  text-align: left;  /* Cambio: Alineación a la izquierda */
+  padding: 10px; /* Añade un padding de 10px alrededor del contenido del pie de página */
+  margin-top: 40px; /* Añade un margen superior de 40px */
+  width: 100%;  /* Asegura que ocupe todo el ancho disponible */
+  box-sizing: border-box;  /* Asegura que el padding no afecte el tamaño total */
+}
+
+/* Estilos para las imágenes */
+img {
+  max-width: 100%; /* Asegura que las imágenes no excedan el 100% de su contenedor */
+  height: auto; /* Mantiene la proporción de la imagen al cambiar el tamaño */
+  border-radius: 5px; /* Aplica un borde redondeado de 5px a las imágenes */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil alrededor de las imágenes */
+}
+
+/* Estilos para los contenedores de las imágenes */
+div[style="display: flex;"] {
+  display: flex; /* Aplica el modelo de diseño flexible al contenedor */
+  justify-content: space-around; /* Distribuye los elementos de manera uniforme con espacio alrededor */
+  gap: 30px; /* Añade un espacio de 30px entre los elementos */
+  flex-wrap: wrap; /* Permite que los elementos se ajusten a múltiples filas si es necesario */
+}
+
+div[style="text-align: center; width: 30%;"] {
+  width: 30%; /* Establece el ancho del contenedor de las imágenes en un 30% */
+  text-align: center; /* Centra el contenido dentro del contenedor */
+}
+
+/* Estilo para el botón de regreso */
+button {
+  background-color: #900c3f; /* Establece un color de fondo rojo para el botón */
+  color: #fff; /* Establece el color del texto en blanco */
+  padding: 10px; /* Añade un padding de 10px alrededor del botón */
+  border: none; /* Elimina cualquier borde predeterminado del botón */
+  cursor: pointer; /* Cambia el cursor a un puntero cuando se pasa sobre el botón */
+}
